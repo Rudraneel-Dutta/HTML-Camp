@@ -6,6 +6,98 @@
     <title>Sign UP</title>
 </head>
 <body>
-    
+    <table align="center">
+        <form>
+            <tr colspan="2">
+                <td><h1>Sign up</h1></td>
+            </tr>
+
+            <tr>
+                <td>First name</td>
+                <td><input type="text" placeholder="Enter your first name" pattern="[a-zA-z]{3,}" title="Must be alphabets and atleast 3 charecters" required autofocus></td>
+
+            </tr>
+
+            <tr>
+                <td>Last name</td>
+                <td><input type="text" placeholder="Enter your last name"></td>
+
+            </tr>
+
+            <tr>
+                <td>Email</td>
+                <td><input type="email" placeholder="Enter your Email"></td>
+
+            </tr>
+
+            <tr>
+                <td>Mobile</td>
+                <td><input type="text" placeholder="Enter your Mobile" maxlength="10" pattern="[0-9]{10}" title="Must be of 10 digits"></td>
+
+            </tr>
+
+            <tr>
+                <td>Nationality</td>
+                <td><input type="text" value="Indian" disabled></td>
+
+            </tr>
+
+            <tr>
+                <td>DOB</td>
+                <td><input type="date" placeholder="Enter your Mobile"></td>
+
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="gender">Male <input type="radio" name="gender">Female</td>
+
+            </tr>
+
+            <tr>
+                <td>City</td>
+                <td><select name="city" id="">
+                    <option selected disabled>Choose City</option>
+                    <option>Kolkata</option>
+                    <option>Delhi</option>
+                    <option>Chennai</option>
+                    <option>Patna</option>
+                </select></td>
+
+            </tr>
+
+            <tr>
+                <td>Address</td>
+                <td>
+                    <textarea rows="5" cols="21"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Password</td>
+                <td><input type="text" placeholder="Type your Password"></td>
+            </tr>
+
+            <tr>
+                <td>Upload Photo</td>
+                <td><input type="file"></td>
+            </tr>
+
+            <tr>
+                <td>Choose Color</td>
+                <td><input type="color" style="width: 170px;"></td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" value="Sign UP" style="width: 100px;"></td>
+                <td><input type="reset"  style="width: 100px;"></td>
+            </tr>
+
+           
+
+           
+
+        </form>
+    </table>
 </body>
 </html>
